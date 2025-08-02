@@ -16,7 +16,7 @@ The project includes:
 > The overall **idea, structure, and task breakdown** for this project are based on the original work by [DataWithBaara](https://github.com/DataWithBaara).  
 > I followed Baara's public educational material to build and implement this project from scratch using my own code, while adhering to the conceptual framework provided.
 
-All scripts in this repository are written by me as a hands-on exercise to reinforce my learning and practical skills in data warehousing but originates from tasks delegated by Baara.
+All scripts in this repository are written by me as a hands-on exercise to reinforce my learning and practical skills in data warehousing but originates from tasks delegated by Baara and follow style, naming conventions and practice suggested by him.
 
 
 ## 🧾 Acknowledgments

@@ -42,6 +42,32 @@ Into the gold layer, tables from the silver layer were joined into facts and dim
 
 Data contained into the final model are catalogued here: ![data_catalog](https://github.com/francesco-mt/sql-data-warehouse-project/blob/main/docs/data_catalog.md) while details related to the naming conventions followed throughout this project can be checked here: ![naming_conventions](https://github.com/francesco-mt/sql-data-warehouse-project/blob/main/docs/naming_conventions.md)  
 
+## Instructions
+
+### Requirements:
+- Windows
+- SQL Server Express (![download](https://www.microsoft.com/en-us/sql-server/sql-server-downloads))
+- SQL Server Management Studio (![download](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms))
+- Git (![download](https://git-scm.com/downloads))
+- Open Command Prompt and run : git clone https://github.com/francesco-mt/sql-data-warehouse-project.git
+
+### Steps: 
+
+#### Open and connect SQL Server Management Studio to SQL Server:
+- Open SQL Server Management Studio from the Start menu
+- A "Connect to Server" window will appear automatically
+- Fill in:
+            Server type: Database Engine
+            Server name: localhost\SQLEXPRESS
+            Authentication: Windows Authentication
+- Click Connect
+- You should see the server appear in the Object Explorer panel on the left
+
+#### Open and run the scripts:
+- In SQL Server Management Studio, go to File → Open → File...
+- Navigate to the cloned project folder
+- Go into the /scripts/ folder
+- Open run_all.sql and run it 
 
 ##  Acknowledgments
 

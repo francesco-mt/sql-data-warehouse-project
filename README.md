@@ -46,9 +46,9 @@ Data contained into the final model are catalogued here: ![data_catalog](https:/
 
 ### Requirements:
 - Windows
-- SQL Server Express (![download](https://www.microsoft.com/en-us/sql-server/sql-server-downloads))
-- SQL Server Management Studio (![download](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms))
-- Git (![download](https://git-scm.com/downloads))
+- SQL Server Express ([download](https://www.microsoft.com/en-us/sql-server/sql-server-downloads))
+- SQL Server Management Studio ([download](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms))
+- Git ([download](https://git-scm.com/downloads))
 - Open Command Prompt and run : git clone https://github.com/francesco-mt/sql-data-warehouse-project.git
 
 ### Steps: 

@@ -1,4 +1,4 @@
-sql-- ============================================
+-- ============================================
 -- Master Execution Script
 -- Run this file to build the full warehouse
 -- ============================================
@@ -9,10 +9,16 @@ sql-- ============================================
 -- Step 2: Bronze Layer
 :r bronze/bronze_ddl.sql
 :r bronze/bronze_load_procedure.sql
+GO
+EXEC bronze.load_bronze;
+GO
 
 -- Step 3: Silver Layer
 :r silver/silver_ddl.sql
 :r silver/silver_load_procedure.sql
+GO
+EXEC silver.load_silver;
+GO
 :r silver/silver_data_quality_checks.sql
 
 -- Step 4: Gold Layer

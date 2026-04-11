@@ -52,13 +52,11 @@ WHERE NOT EXISTS (
 )
 OR cid IS NULL;
 
--- Returns invalid dates (INT data type). Expectation: no result
-SELECT NULLIF(sls_ship_dt, 0) sls_ship_dt
+-- Returns invalid dates (out of range). Expectation: no result
+SELECT sls_ship_dt
 FROM silver.crm_sales_details
-WHERE sls_ship_dt <= 0
-OR LEN(sls_ship_dt) != 8
-OR sls_ship_dt > 20500101
-OR sls_ship_dt < 19000101 
+WHERE sls_ship_dt > '2050-01-01'
+OR sls_ship_dt < '1900-01-01'
 
 -- Returns rows in which sales, quantity and price are not coherent with one another
 SELECT

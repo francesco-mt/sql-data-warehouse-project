@@ -64,7 +64,7 @@ ROW_NUMBER() OVER(ORDER BY pin.prd_start_dt, pin.prd_id) AS product_key,
 	pin.prd_line AS product_line,
 	pin.prd_start_dt AS start_date		
 FROM silver.crm_prd_info pin
-LEFT JOIN silver.erp_px_cat_g1v2 pcg ON cat_id = pcg.id
+LEFT JOIN silver.erp_px_cat_g1v2 pcg ON pin.cat_id = pcg.id
 WHERE pin.prd_end_dt IS NULL
 
 GO
